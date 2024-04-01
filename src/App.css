@@ -1,0 +1,43 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.game-container {
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  height: 200px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.character {
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #333;
+}
